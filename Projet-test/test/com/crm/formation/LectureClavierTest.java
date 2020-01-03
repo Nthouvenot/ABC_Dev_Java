@@ -1,4 +1,5 @@
 package com.crm.formation;
+
 import java.util.Scanner;
 
 /**
@@ -16,10 +17,10 @@ public class LectureClavierTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="";
-		Scanner sc=new Scanner(System.in);
+		String str = "";
+		Scanner sc = new Scanner(System.in);
 		System.out.println("entrez un texte");
-		str=sc.nextLine();
+		str = sc.nextLine();
 		System.out.print("valeur de la chaine ");
 		System.out.println(str);
 		sc.close();

@@ -14,11 +14,11 @@ public class StringTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="Bonjour";
-		String nom="Nicolas";
-		str=str+" "+nom;
+		String str = "Bonjour";
+		String nom = "Nicolas";
+		str = str + " " + nom;
 		System.out.println(str);
-		
+
 	}
 
 }
