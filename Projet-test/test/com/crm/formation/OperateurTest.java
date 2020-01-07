@@ -22,7 +22,7 @@ public class OperateurTest {
 		System.out.println(maVariableInt2);
 		System.out.println("maVariableInt3");
 		System.out.println(maVariableInt3);
-		
+//----------------------------------------		
 		int somme1;
 		somme1 = 5+6;
 		System.out.println(somme1);
@@ -46,6 +46,17 @@ public class OperateurTest {
 		double modulo;
 		modulo = (12%8);
 		System.out.println(modulo);
+//----------------------------------------		
+		int nb = 2;
+		int nb2 = nb++;
+		System.out.println("post incrémentaion");
+		System.out.println(nb);
+		System.out.println(nb2);
+		System.out.println("incrémentation");
+		nb = 2;
+		nb2 = ++nb;
+		System.out.println(nb);
+		System.out.println(nb2);
 	    }
 
 }
