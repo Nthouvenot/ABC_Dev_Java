@@ -57,6 +57,21 @@ public class OperateurTest {
 		nb2 = ++nb;
 		System.out.println(nb);
 		System.out.println(nb2);
+//----------------------------------------
+		double total = 0, num = 1;
+		double pourcentage = 0.5;
+		total = total + num;
+		System.out.println(total);
+		total += num;
+		System.out.println(total);
+		total -= num;
+		System.out.println(total);
+		total *= pourcentage;
+		System.out.println(total);
+		total /= 2;
+		System.out.println(total);
+		num %= pourcentage;
+		System.out.println(pourcentage);
 	    }
 
 }

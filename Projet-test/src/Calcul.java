@@ -25,7 +25,7 @@ public class Calcul
 		largeur = sc.nextInt();
 		resultat = (longeur + largeur)*2;
 		return resultat;
-	}
+	}	
 	
 	protected void finalize()
 	{
