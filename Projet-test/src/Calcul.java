@@ -13,11 +13,11 @@ public class Calcul
 		longeur = 0;
 		largeur = 0;
 		resultat = 0;
+		sc = new Scanner(System.in);
 	}
 	
 	public int calculperimetre()
 	{
-		sc = new Scanner(System.in);
 		System.out.println("Entrez la longeur du rectangle");
 		longeur = sc.nextInt();
 		//sc.reset();
@@ -26,5 +26,9 @@ public class Calcul
 		resultat = (longeur + largeur)*2;
 		return resultat;
 	}
-		
+	
+	protected void finalize()
+	{
+		sc.close();
+	}
 }
