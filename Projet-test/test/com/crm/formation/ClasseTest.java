@@ -2,7 +2,14 @@ package com.crm.formation;
 
 public class ClasseTest
 {
+private
 	
+	int r;
+	
+	ClasseTest()
+	{
+		r = 0;
+	}
 	
 	public int addition(int a, int b)
 	{
@@ -29,14 +36,4 @@ public class ClasseTest
 	{
 		return r;
 	}
-	
-	ClasseTest(int nbr1, int nbr2)
-	{
-		a=nbr1;
-		b=nbr2;
-	}
-	private
-	int a;
-	int b;
-	int r;
 }
