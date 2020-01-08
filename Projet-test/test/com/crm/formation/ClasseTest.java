@@ -2,11 +2,13 @@ package com.crm.formation;
 
 public class ClasseTest
 {
-private
-	
-	int r;
-	
-	ClasseTest()
+// Déclaration d''une constante PI pour ratio du périmétre d'un cercless	
+public static final float PI=3.14f;	
+private int r;
+
+
+
+public ClasseTest()
 	{
 		r = 0;
 	}
