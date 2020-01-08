@@ -1,34 +1,27 @@
-import java.util.Scanner;
+package com.crm.api;
+import java.lang.Math;
 
 public class Calcul
 {
-	
-	private Scanner sc;
-	private int longeur;
-	private int largeur;
 	private int resultat;
+	private double dResultat;
 	
 	public Calcul()
 	{
-		longeur = 0;
-		largeur = 0;
 		resultat = 0;
-		sc = new Scanner(System.in);
+		dResultat = 0;
 	}
 	
-	public int calculperimetre()
+	public double calculSecteurCirculaire(double rayon, int angle)
 	{
-		System.out.println("Entrez la longeur du rectangle");
-		longeur = sc.nextInt();
-		//sc.reset();
-		System.out.println("Entrez la largeur du rectangle");
-		largeur = sc.nextInt();
+		dResultat = Math.sqrt(Math.PI)* ((double)angle / 360);
+		return dResultat;
+	}
+	
+	public int calculperimetre(int longeur, int largeur)
+	{		
 		resultat = (longeur + largeur)*2;
 		return resultat;
-	}	
-	
-	protected void finalize()
-	{
-		sc.close();
 	}
+
 }
