@@ -14,7 +14,7 @@ public class Calcul
 	
 	public double calculSecteurCirculaire(double rayon, int angle)
 	{
-		dResultat = Math.sqrt(Math.PI)* ((double)angle / 360);
+		dResultat = Math.pow(Math.PI, 2)* ((double)angle / 360);
 		return dResultat;
 	}
 	
@@ -22,6 +22,12 @@ public class Calcul
 	{		
 		resultat = (longeur + largeur)*2;
 		return resultat;
+		
 	}
-
+	
+	public double calculVolumeCercle(double rayon)
+	{
+		dResultat=((4*Math.PI)* Math.pow(rayon, 3))/3;
+		return dResultat;
+	}
 }
