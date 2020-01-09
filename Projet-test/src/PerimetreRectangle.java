@@ -1,3 +1,4 @@
+//import java.io.IOException;
 import java.util.Scanner;
 import com.crm.api.Calcul;
 public class PerimetreRectangle
@@ -13,6 +14,9 @@ public class PerimetreRectangle
 		rayon = 0;
 	}
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
@@ -37,7 +41,13 @@ public class PerimetreRectangle
 						System.out.println("L'aire du secteur circulaire est de : " + C.calculSecteurCirculaire(rayon, angle));
 						break;
 					}
-				case 3: ok=false; break;
+				case 3:
+				{
+					saisirVolumeCercle();
+					System.out.println("Le volume du cercle est de : " + C.calculVolumeCercle(rayon));
+					break;
+				}
+				case 4: ok=false; break;
 				}
 			}
 			while(ok);
@@ -46,10 +56,23 @@ public class PerimetreRectangle
 	private static short menu()
 	{
 		short choix;
+/*
+		final  String COMMANDE ="cmd.exe CLS";		
+		try 
+		{
+			Runtime.getRuntime().exec(COMMANDE);
+		} 
+		catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+*/		
 		System.out.println("Menu :");
 		System.out.println("1) Calculer perimétre rectangle");
 		System.out.println("2) Calculer aire secteur ciculaire");
-		System.out.println("3) Quitter");
+		System.out.println("3) Calculer volume cercle");
+		System.out.println("4) Quitter");
 		choix = sc.nextShort();
 		return choix;
 	}
@@ -68,6 +91,13 @@ public class PerimetreRectangle
 		rayon = sc.nextDouble();
 		System.out.println("Entrez l'angle du cercle");
 		angle = sc.nextInt();
+	}
+	
+	private static void saisirVolumeCercle()
+	{
+		System.out.println("Entrez le rayon du cercle");
+		rayon = sc.nextDouble();
+		
 	}
 	
 	protected void finalize()
