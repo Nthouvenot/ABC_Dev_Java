@@ -56,18 +56,7 @@ public class PerimetreRectangle
 	private static short menu()
 	{
 		short choix;
-/*
-		final  String COMMANDE ="cmd.exe CLS";		
-		try 
-		{
-			Runtime.getRuntime().exec(COMMANDE);
-		} 
-		catch (IOException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-*/		
+
 		System.out.println("Menu :");
 		System.out.println("1) Calculer perimétre rectangle");
 		System.out.println("2) Calculer aire secteur ciculaire");
