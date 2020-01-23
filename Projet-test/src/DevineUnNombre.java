@@ -30,7 +30,7 @@ public class DevineUnNombre {
 			erreur = false;
 			scan = sc.nextLine();
 			try {
-				nbr = Integer.parseInt(Scan);
+				nbr = Integer.parseInt(scan);
 			} catch (Exception nfe) {
 				System.out.println("Veuillez entrez un nombre !!!");
 				erreur = true;
