@@ -1,3 +1,15 @@
+/**
+
+@author Nicolas Thouvenot
+
+
+@version 1.0
+@param void
+@return void
+
+Clsse de test des opérateurs
+*/
+
 package com.crm.formation;
 
 public class ClasseTest

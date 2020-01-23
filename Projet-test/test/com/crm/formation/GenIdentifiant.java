@@ -1,3 +1,16 @@
+/**
+
+@author Nicolas Thouvenot
+
+
+@version 1.0
+@param void
+@return void
+
+test des fonctions de la classe String
+*/
+
+
 package com.crm.formation;
 
 import java.util.Scanner;

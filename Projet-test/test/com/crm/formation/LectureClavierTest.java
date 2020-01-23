@@ -1,3 +1,17 @@
+/**
+
+@author Nicolas Thouvenot
+
+
+
+@version 1.0
+@param void
+@return void
+
+Test du scanner classe qui gére les entrées clavier
+*/
+
+
 package com.crm.formation;
 
 import java.util.Scanner;

@@ -1,3 +1,15 @@
+/**
+
+@author Nicolas Thouvenot
+
+
+@version 1.0
+@param void
+@return void
+
+Classe de test des boucles
+*/
+
 package com.crm.formation;
 
 public class BoucleTestContinue {
