@@ -1,3 +1,19 @@
+/**
+
+@author Nicolas Thouvenot
+@version 1.0
+@param aucun
+@return void
+
+Classe librairie de fonction de calcul divers
+*/
+
+
+
+
+
+
+
 package com.crm.api;
 import java.lang.Math;
 

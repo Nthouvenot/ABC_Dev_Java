@@ -1,3 +1,22 @@
+/**
+
+@author Nicolas Thouvenot
+
+@version 1.0
+@param void
+@return void
+
+Calcul la niéme factorielle
+*/
+
+
+
+
+
+
+
+
+
 import java.util.Scanner;
 
 public class Factorielle {

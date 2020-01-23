@@ -1,3 +1,14 @@
+/**
+
+@author Nicolas Thouvenot
+
+@version 1.0
+@param void
+@return void
+
+Programme de calcul d'un périmétre rectangle, d'un secteur et d'un cercle
+*/
+
 //import java.io.IOException;
 import java.util.Scanner;
 import com.crm.api.Calcul;

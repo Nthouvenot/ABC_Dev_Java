@@ -1,3 +1,13 @@
+/**
+
+
+@author Nicolas Thouvenot
+@version 1.0
+@param void
+@return void
+
+Test calcul + constante
+*/
 
 import com.crm.api.Utils;
 

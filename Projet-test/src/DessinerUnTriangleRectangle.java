@@ -1,3 +1,14 @@
+/**
+
+@author Nicolas Thouvenot
+
+@version 1.0
+@param void
+@return void
+
+Classe créent un rectangle avec la dimension de la longeur et de la largeur
+*/
+
 import java.util.Scanner;
 
 public class DessinerUnTriangleRectangle {

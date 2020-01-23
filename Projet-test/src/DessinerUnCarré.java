@@ -1,3 +1,17 @@
+/**
+
+
+@author Nicolas Thouvenot
+@version 1.0
+@param void
+@return void
+
+Classe créent un carré avec la dimension d'un coté
+*/
+
+
+
+
 import java.util.Scanner;
 
 public class DessinerUnCarré {

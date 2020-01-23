@@ -1,3 +1,18 @@
+/**
+
+@author Nicolas Thouvenot
+
+@version 1.0
+@param void
+@return void
+
+Mini jeu ou il faut deviner un nombre génerer aleatoirement
+*/
+
+
+
+
+
 import java.util.Scanner;
 
 public class DevineUnNombre {
@@ -7,13 +22,13 @@ public class DevineUnNombre {
 
 		int nombreAleatoire = 0, nbr = 0, nbrEssai = 0;
 		boolean ok = false, erreur = false;
-		String Scan;
+		String scan;
 		Scanner sc = new Scanner(System.in);
 		nombreAleatoire = (int) (Math.random() * 99);
 		System.out.println("Entrez un nombre compris entre 0 et 100");
 		do {
 			erreur = false;
-			Scan = sc.nextLine();
+			scan = sc.nextLine();
 			try {
 				nbr = Integer.parseInt(Scan);
 			} catch (Exception nfe) {

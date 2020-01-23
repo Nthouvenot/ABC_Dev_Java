@@ -1,3 +1,17 @@
+/**
+
+@author Nicolas Thouvenot
+@version 1.0
+@param aucun
+@return void
+
+Classe d'utilitaire utiles
+*/
+
+
+
+
+
 package com.crm.api;
 import java.lang.Math;
 
