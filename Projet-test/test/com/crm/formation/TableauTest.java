@@ -2,9 +2,11 @@ package com.crm.formation;
 
 public class TableauTest {
 
+	private static int[] tabInt;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] tabInt;
+		
 		tabInt = new int[5];
 		
 		int[] tabInt1 = new int[5];
