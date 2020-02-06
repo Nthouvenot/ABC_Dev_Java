@@ -1,3 +1,4 @@
+package com.crm.test;
 /**
  * Classe d'affichage d'un message utilisateur
  * 
