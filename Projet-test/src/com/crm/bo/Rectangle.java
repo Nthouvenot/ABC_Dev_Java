@@ -15,17 +15,18 @@ public class Rectangle {
 	private float largeur;
 
 	// dééfinition des méthodes
-	
+
 	/**
 	 * constructeur sans paramétre initialise longeur et largeur a 0
 	 */
 	public Rectangle() {
-		longeur=0;
-		largeur=0;
+		longeur = 0;
+		largeur = 0;
 	}
-	
+
 	/**
 	 * constructeur initialise longeur et largeur
+	 * 
 	 * @param longeur
 	 * @param largeur
 	 */
@@ -98,36 +99,53 @@ public class Rectangle {
 		System.out.println(largeur2); // affichage valeur de largeur de l'objet a tester
 		// System.out.println(this.longeur > longeur2 && this.largeur > largeur2);
 
-		if (this.longeur > longeur2 && this.largeur > largeur2) {
-			return 1;
-		}
-		else if (this.largeur == largeur2) {
-			return 1;
-		}
-		else if (this.largeur < largeur2) {
-			return -1;
-		}
-		else {
-			if (this.longeur == longeur2 && this.largeur == largeur2) {
-				return 0;
-			}
-			else if (this.largeur > largeur2) {
-				return 1;
-			}
-			else if (this.largeur < largeur2) {
-				return -1;
-			}
-			else {
-				if (this.longeur < longeur2 && this.largeur < largeur2) {
-					return -1;
-				}
-				else if (this.largeur == largeur2) {
-					return -1;
-				}
-				else {
+//---------------------------------------------------------------
+// Algo Origine
+//		if (this.longeur > longeur2 && this.largeur > largeur2) {
+//			return 1;
+//		}
+//		else if (this.largeur == largeur2) {
+//			return 1;
+//		}
+//		else if (this.largeur < largeur2) {
+//			return -1;
+//		}
+//		else {
+//			if (this.longeur == longeur2 && this.largeur == largeur2) {
+//				return 0;
+//			}
+//			else if (this.largeur > largeur2) {
+//				return 1;
+//			}
+//			else if (this.largeur < largeur2) {
+//				return -1;
+//			}
+//			else {
+//				if (this.longeur < longeur2 && this.largeur < largeur2) {
+//					return -1;
+//				}
+//				else if (this.largeur == largeur2) {
+//					return -1;
+//				}
+//				else {
+//					return 1;
+//				}
+//			}
+//		}
+//---------------------------------------------------------------
+
+		if (this.longeur == longeur2 && this.largeur == largeur2) {
+
+			return 0;
+		} else {
+			if (this.longeur > longeur2) {
+				if (this.largeur > largeur2 || this.largeur == largeur2) {
+
 					return 1;
-				}
+				} else
+					return -1;
 			}
 		}
+		return 0;
 	}
 }
