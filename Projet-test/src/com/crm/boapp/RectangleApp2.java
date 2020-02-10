@@ -40,8 +40,8 @@ public class RectangleApp2 {
 		}
 		rect.setLongeur(rectLongeur);
 		rect.setLargeur(rectLargeur);
-		System.out.println("Perimetre du Rectangle : " + rect.calculPerimetre());
-		System.out.println("Surface du Rectangle : " + rect.calculerSurface());
+		System.out.println("Perimetre du Rectangle : " + rect.calculPerimetre("cm"));
+		System.out.println("Surface du Rectangle : " + rect.calculerSurface("cm"));
 	}
 
 }

@@ -76,7 +76,7 @@ public class Rectangle {
 
 	/**
 	 * @Param String unite
-	 * @return void
+	 * @return String
 	 */
 	public String calculPerimetre(String unite) {
 
@@ -86,7 +86,7 @@ public class Rectangle {
 
 			return Float.toString(resultat) + " cm";
 		}
-		else if(unite.contentEquals("mm") {
+		else if(unite.contentEquals("mm")) {
 			
 			return Float.toString(resultat) + " mm";
 		}
@@ -104,6 +104,28 @@ public class Rectangle {
 		return longeur * largeur;
 	}
 
+	/**
+	 * @Param String unite
+	 * @return String
+	 */
+	public String calculerSurface(String unite) {
+
+		float resultat;
+		resultat = longeur * largeur;
+		if (unite.contentEquals("cm")) {
+
+			return Float.toString(resultat) + " cm";
+		}
+		else if(unite.contentEquals("mm")) {
+			
+			return Float.toString(resultat) + " mm";
+		}
+		else {
+			
+			return "";
+		}
+	}
+	
 	// compare 2 rectangle egal renvoie 0, plus grand renvoie 1, plut petit renvoie
 	// -1
 	/**
