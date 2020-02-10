@@ -36,7 +36,7 @@ public class CompteBancaireAmeliorer {
 		}
 		// Création et gestion menu
 		do {
-			//if(retour != 0) sc.next();
+			// if(retour != 0) sc.next();
 			System.out.println("***Saisisser une opération***");
 			System.out.println("1) Consulter mon solde");
 			System.out.println("2) Faire un depot");
