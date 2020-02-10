@@ -2,6 +2,10 @@ package com.crm.bo;
 
 import java.util.Date;
 
+/**
+ * @author nicolas
+ *
+ */
 public class Personne {
 
 	// Attributs
@@ -9,10 +13,26 @@ public class Personne {
 	private String nom;
 	private String prenom;
 	protected Date dateNaissance;
-
+	
+	
 	// Méthodes
+	/**
+	 * Constructor with no param
+	 */
+	public Personne() {
+		
+	}
 	
 	
+	/**
+	 * @param nom
+	 * @param prenom
+	 */
+	public Personne(String nom, String prenom) {
+		
+		this.nom = nom;
+		this.prenom = prenom;
+	}
 	/**
 	 * Cette méthodes renvoie la valeur de l'attribut nom
 	 * @return nom
@@ -53,4 +73,17 @@ public class Personne {
 		System.out.println("Vous étes " + nom + " " + prenom + " (" + surnom + ")");
 	}
 	
+	public void afficherDetails(String lang) {
+		
+		if(lang.contentEquals("anglais")) {
+			
+			System.out.print("You are ");
+		}
+		else if(lang.contentEquals("francais")) {
+			
+			System.out.print("Vous etes ");
+		}
+		
+		System.out.println(nom + " " + prenom + " (" + surnom + ")");
+	}
 }
