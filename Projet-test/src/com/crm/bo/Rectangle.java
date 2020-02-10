@@ -67,7 +67,7 @@ public class Rectangle {
 	}
 
 	/**
-	 * @return
+	 * @return void
 	 */
 	public float calculPerimetre() {
 
@@ -75,7 +75,29 @@ public class Rectangle {
 	}
 
 	/**
-	 * @return
+	 * @Param String unite
+	 * @return void
+	 */
+	public String calculPerimetre(String unite) {
+
+		float resultat;
+		resultat = (longeur + largeur) * 2;
+		if (unite.contentEquals("cm")) {
+
+			return Float.toString(resultat) + " cm";
+		}
+		else if(unite.contentEquals("mm") {
+			
+			return Float.toString(resultat) + " mm";
+		}
+		else {
+			
+			return "";
+		}
+	}
+
+	/**
+	 * @return void
 	 */
 	public float calculerSurface() {
 
