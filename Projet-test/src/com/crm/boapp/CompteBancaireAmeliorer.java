@@ -24,7 +24,6 @@ public class CompteBancaireAmeliorer {
 		compte = new Vector<CompteBancaire>(1);
 		compte.add(new CompteBancaire());
 		compte1 = compte.get(0);
-		//compte1 = Vector compte<CompteBancaire>1;
 		
 		Scanner sc = new Scanner(System.in);
 		// initialisation numéro de compte si besoin
