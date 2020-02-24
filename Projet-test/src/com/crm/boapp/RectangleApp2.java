@@ -42,6 +42,7 @@ public class RectangleApp2 {
 		rect.setLargeur(rectLargeur);
 		System.out.println("Perimetre du Rectangle : " + rect.calculPerimetre("cm"));
 		System.out.println("Surface du Rectangle : " + rect.calculerSurface("cm"));
+		sc.close();
 	}
-
+	
 }

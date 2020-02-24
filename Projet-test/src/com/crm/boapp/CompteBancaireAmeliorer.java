@@ -126,7 +126,6 @@ public class CompteBancaireAmeliorer {
 			System.out.println("Vous n'avez pas les fond suffisant");
 	}
 			
-			
+		sc.close();		
 	}
-	//sc.close();
 }

@@ -62,7 +62,7 @@ public class VoitureApp2 {
 			case 5: ralentir(); break;
 			case 6: voiture.klaxonner(); break;
 			case 7: voiture.arret(); break;
-			case 8: System.out.println("Sortie du programme...");break;
+			case 8: System.out.println("Sortie du programme..."); 	sc.close(); break;
 			default : System.out.println("Erreur");
 			}
 		} while(!(saisie == 8));
