@@ -13,8 +13,15 @@ Test des opérateurs ternaire
 
 package com.crm.formation;
 
+/**
+ * @author nicolas
+ *
+ */
 public class OperateurTernaire {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nbr1 = 2;

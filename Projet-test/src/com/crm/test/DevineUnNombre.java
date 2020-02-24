@@ -17,8 +17,15 @@ Mini jeu ou il faut deviner un nombre génerer aleatoirement
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class DevineUnNombre {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

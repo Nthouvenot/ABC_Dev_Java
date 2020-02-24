@@ -1,7 +1,14 @@
 package com.crm.test;
 
+/**
+ * @author nicolas
+ *
+ */
 public class JeuDé {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String args[]) {
 	int nballeatoire=0;
 	

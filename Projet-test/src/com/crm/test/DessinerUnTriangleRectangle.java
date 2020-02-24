@@ -12,8 +12,15 @@ Classe créent un rectangle avec la dimension de la longeur et de la largeur
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class DessinerUnTriangleRectangle {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int longeur = 0, i = 0, i2 = 0, ligne = 1;

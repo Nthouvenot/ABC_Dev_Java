@@ -12,8 +12,15 @@ Test calcul + constante
 
 import com.crm.api.Utils;
 
+/**
+ * @author nicolas
+ *
+ */
 public class CalculTest {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

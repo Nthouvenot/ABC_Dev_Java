@@ -15,8 +15,15 @@ Classe créent un carré avec la dimension d'un coté
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class DessinerUnCarré {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

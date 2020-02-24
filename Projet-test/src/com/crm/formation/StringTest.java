@@ -3,12 +3,14 @@
  */
 package com.crm.formation;
 
+
 /**
- * @author CRM
+ * @author nicolas
  *
  */
 public class StringTest {
 
+	
 	/**
 	 * @param args
 	 */

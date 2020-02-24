@@ -1,7 +1,14 @@
 package com.crm.formation;
 
+/**
+ * @author nicolas
+ *
+ */
 public class TestConversion {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //----------------------------------------		

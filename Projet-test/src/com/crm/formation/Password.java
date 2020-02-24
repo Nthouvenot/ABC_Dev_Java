@@ -2,8 +2,15 @@ package com.crm.formation;
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class Password {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final String LOGIN = "CRM";

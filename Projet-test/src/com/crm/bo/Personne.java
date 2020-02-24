@@ -17,7 +17,7 @@ public class Personne {
 	
 	// Méthodes
 	/**
-	 * Constructor with no param
+	 * Constructor with noParam
 	 */
 	public Personne() {
 		

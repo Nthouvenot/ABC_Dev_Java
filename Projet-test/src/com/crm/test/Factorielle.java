@@ -20,8 +20,15 @@ Calcul la niéme factorielle
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class Factorielle {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		

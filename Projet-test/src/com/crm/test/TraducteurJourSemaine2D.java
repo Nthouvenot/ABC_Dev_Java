@@ -13,8 +13,15 @@ Converti les jours de la semaine vers les anglais
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class TraducteurJourSemaine2D {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

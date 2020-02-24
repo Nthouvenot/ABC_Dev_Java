@@ -2,6 +2,10 @@ package com.crm.formation;
 
 import java.util.Scanner;
 
+/**
+ * @author nicolas
+ *
+ */
 public class WrapperTest 
 {
 

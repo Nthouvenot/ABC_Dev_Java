@@ -13,8 +13,15 @@ Test des conditions sur la structure if-else
 
 package com.crm.formation;
 
+/**
+ * @author nicolas
+ *
+ */
 public class ConditionTest {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

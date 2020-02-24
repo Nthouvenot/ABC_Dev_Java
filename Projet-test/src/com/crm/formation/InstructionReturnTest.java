@@ -13,14 +13,24 @@ test du retour des méthodes
 
 package com.crm.formation;
 
+/**
+ * @author nicolas
+ *
+ */
 public class InstructionReturnTest {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nombre = 10;
 		afficherListeNombre(nombre);
 	}
 
+	/**
+	 * @param nb
+	 */
 	public static void afficherListeNombre(int nb) {
 		System.out.println("Début méthode aficherListeNombre");
 

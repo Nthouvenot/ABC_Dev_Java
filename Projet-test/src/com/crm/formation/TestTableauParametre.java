@@ -3,8 +3,15 @@ package com.crm.formation;
 import java.util.Scanner;
 import java.util.Vector;
 
+/**
+ * @author nicolas
+ *
+ */
 public class TestTableauParametre {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Vector<Integer> tab = new Vector<Integer>(1);
